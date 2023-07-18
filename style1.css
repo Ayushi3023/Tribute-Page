@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+#main {
+  background-image: url(images/wp2284535-spacex-wallpapers.jpg);
+
+
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  width: auto;
+  height: auto;
+  min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+  
+    /* Center the background image */
+    background-position: center;
+  
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+  
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+  
+
+}
+
+#heading {
+  height: 100px;
+  color:white;
+}
+
+#title {
+  letter-spacing: 2px;
+  color: white;
+}
+
+.sub-title {
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#img-caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#tribute-info ul {
+  text-align: left;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: white;
+}
+
+#tribute-info ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 20px;
+}
+.quote {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 30%;
+  padding-top: 15px;
+  padding-right: 30%;
+  margin-bottom: 0;
+  color: white;
+}
+
+.author {
+  padding-top: 0;
+  padding-left: 30%;
+  text-align: left;
+  color: white;
+}
+
+.tribute {
+  font-size: 18px;
+  color: white;
+}
+
+#tribute-link {
+  font: 20px;
+  color: blueviolet;
+}
+
+#image {
+  margin: 10px auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 2px;
+  border-color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    padding:auto;
+    margin:auto;
+  }
+  #main {
+    margin: 0;
+  }
+
+  #tribute-info ul {
+    padding: 30px;
+  }
+
+  .quote {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #img-caption {
+    letter-spacing: 0;
+    font-size: 12px;
+    padding-top: 0;
+  }
+
+  #tribute-info ul li {
+    margin-top: 0;
+  }
+}
+.fixed-bg {
+  /* The background image */
+  background-image:url("images/wp2284535-spacex-wallpapers.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
